@@ -10,4 +10,4 @@ and the actual domains themselves in file format here:
 
 https://github.com/duckduckgo/tracker-radar
 
-[Public Sources Used](/Blocked Domains/high-tracker-suspicion NO COMMENTS.txt)
+[Public Sources Used]("/Blocked Domains/high-tracker-suspicion NO COMMENTS.txt")
