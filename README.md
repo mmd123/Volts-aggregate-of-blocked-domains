@@ -4,3 +4,7 @@ Figured I'd make an aggegation of domains that I'm blocking on my home network f
 for the list of publicly available sources I used before my own modifications, please go here:  [Public Sources Used](Blocked-Domains/third%20party%20block%20lists%20I%20use)
 
 [Whitelisted Domains](Blocked-Domains/Whitelisted%20Domains)
+
+and finally
+
+[MY personally blocked domains list](Blocked-Domains/MANUAL_BLOCKS)
