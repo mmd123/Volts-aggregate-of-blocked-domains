@@ -1,0 +1,1296 @@
+<-- Whitelisted Domains that I have needed to make in order to fix the working functionality of certain websites I use, there are likely a lot more needed, I just dont use them so I would not know of them -->
+#Be advices, I make no claims of usability, so use my contributions at your own risk, and be aware that there are high likelihood of things still being broken, so watch for that#
+#If I do not use a website, but my blocks break them, be aware I will not know of that issue since I do not use them, I am a single person, and this is just my own#
+#personal usage, and the functionality, or broken functionality will reflect that aspect, if you find that other sites are broken and find a fix for it, by all means#
+#submit a pull request to push your fix accordingly!#
+
+
+
+
+#Pfsense Whitelisted Domains#
+google.com
+www.google.com
+youtube.com
+www.youtube.com
+youtube-ui.l.google.com
+googleusercontent.com
+reminders-pa.googleapis.com
+mail.google.com
+play.googleapis.com
+docs.google.com
+www.docs.google.com
+drive.google.com
+www.drive.google.com
+ajax.googleapis.com
+youtu.be
+s.youtube.com
+.i1.ytimg.com
+.i.ytimg.com
+studio.youtube.com
+gfe.nvidia.com
+.heartbeat.dm.origin.com
+ota-downloads.nvidia.com
+gfwsl.geforce.com
+services.gfe.nvidia.com
+download.gfe.nvidia.com # nvidia updates
+ae.nflximg.net
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+ibhuluimcom-a.akamaihd.nethttps://voltwall.home.lan:78/pfblockerng/pfblockerng_category.php?type=geoip
+hulustream.com
+huluim.com
+hulu.com.c.footprint.net
+hulu.com
+assetshuluimcom-a.akamaihd.net
+cws-hulu.conviva.com
+cws.conviva.com
+metcon.hulu.com
+doppler.hulu.com # one of many hulu domains
+vortex.hulu.com # one of many hulu domains
+hulu.hb.omtrdc.net # one of many hulu domains
+apple.com # apple.com self explanatory
+pbs.twimg.com
+www.pbs.twimg.com # twitter images
+cs196.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+cs2-wac.apr-8315.edgecastdns.net # CNAME for (pbs.twimg.com)
+cs2-wac-us.8315.ecdns.net # CNAME for (pbs.twimg.com)
+cs45.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+72.21.91.70
+api.twitter.com
+twimg.com
+cdn.syndication.twimg.com
+t.co
+github.com
+githubusercontent.com
+gitlab.com
+www.gitlab.com
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+sourceforge.net # open source software site I use frequently
+download.fosshub.com
+bitbucket.org
+www.bitbucket.org
+github.io
+raw.githubusercontent.com
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+dl.dropbox.com
+dropbox.com
+www.dropbox.com
+www.dropbox-dns.com # CNAME for (dropbox.com)
+mega.co.nz
+mega.nz
+www.mega.nz
+fbstatic-a.akamaihd.net
+fbexternal-a.akamaihd.net
+fbcdn-profile-a.akamaihd.net
+fbcdn-dragon-a.akamaihd.net
+m.facebook.com
+apps.facebook.com
+login.facebook.com
+mobile.facebook.com
+touch.facebook.com
+0.facebook.com
+chat.facebook.com
+www.messenger.com
+upload.facebook.com
+creative.ak.fbcdn.net # one of far too many domains used by facebook
+external-lhr0-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr1-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr10-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr2-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr3-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr4-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr5-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr6-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr7-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr8-1.xx.fbcdn.net # one of far too many domains used by facebook
+external-lhr9-1.xx.fbcdn.net # one of far too many domains used by facebook
+fbcdn-creative-a.akamaihd.net # one of far too many domains used by facebook
+scontent-lhr3-1.xx.fbcdn.net # one of far too many domains used by facebook
+scontent.xx.fbcdn.net
+scontent.fgdl5-1.fna.fbcdn.net # one of far too many domains used by facebook
+connect.facebook.com # one of far too many domains used by facebook
+cdn.fbsbx.com # one of far too many domains used by facebook
+api.facebook.com
+portal.fb.com
+fb.me # one of far too many domains used by facebook
+facebook.com
+facebook.net
+fbcdn.net # one of far too many domains used by facebook
+.0-edge-chat.facebook.com # one of far too many domains used by facebook
+.1-edge-chat.facebook.com # one of far too many domains used by facebook
+.2-edge-chat.facebook.com # one of far too many domains used by facebook
+.3-edge-chat.facebook.com # one of far too many domains used by facebook
+.4-edge-chat.facebook.com # one of far too many domains used by facebook
+.5-edge-chat.facebook.com # one of far too many domains used by facebook
+.6-edge-chat.facebook.com # one of far too many domains used by facebook
+.edge-chat.facebook.com # one of far too many domains used by facebook
+.mqtt-mini.facebook.com # one of far too many domains used by facebook
+connect.facebook.net
+scontent-iad3-1.xx.fbcdn.net # one of far too many domains used by facebook
+s3.amazonaws.com
+s3-1.amazonaws.com # CNAME for (s3.amazonaws.com)
+aan.amazon.com
+www.aan.amazon.com
+kinesis.us-east-1.amazonaws.com
+fls-na.amazon.com
+mas-ext.amazon.com
+mas-sdk.amazon.com
+mas-ssr.amazon.com
+amazonaws.com
+api.simplisafe.com
+www.api.simplisafe.com
+archive.org
+www.archive.org
+dpm.demdex.net # adobe domain name
+download.filepuma.com
+download.glarysoft.com
+f-log-extension.grammarly.io
+gnar.grammarly.com
+2.android.pool.ntp.org
+stats.streamelements.com
+buff.ly
+ifunny.co
+ifunny.com
+ctest.cdn.nintendo.net
+nintendo.net
+nintendo.com
+nintendowifi.net
+conntest.nintendowifi.net
+accounts.nintendo.com
+www.reddit.com
+connectivity-check.ubuntu.com
+i.imgur.com
+imgur.com
+https://imgur.com
+download.binarymark.com # software I use, I think displayfusion
+download01.logi.com # logitech product updates
+download.freenas.org # freenas updates
+notepad-plus-plus.org # notepad++ updates
+download.amd.com # amd driver updates
+steamcdn-a.akamaihd.net
+store.steampowered.com
+steampowered.com # one of many websites used for the steam game app/service
+steamstatic.com
+steamstore-a.akamaihd.net
+tags.tiqcdn.com # origin app store required
+origin.com
+akamaized.net
+akamaitechnologies.com
+akamaihd.net
+.cdn.akamai.steamstatic.com # one of many websites used for the steam game app/service
+.store.akamai.steamstatic.com # one of many websites used for the steam game app/service
+akadns.net
+akamaistream.net
+akamaiedge.net
+akamai.net
+steamcommunity.com # one of many websites used for the steam game app/service
+steamgames.com # one of many websites used for the steam game app/service
+steamusercontent.com # one of many websites used for the steam game app/service
+steamcontent.com # one of many websites used for the steam game app/service
+akamai.steamusercontent.com # one of many websites used for the steam game app/service
+.store.akamai.steampowered.com # one of many websites used for the steam game app/service
+static.akamaitechnologies.com
+.static.akamaitechnologies.com
+nexusmods.com
+api.nexusmods.com
+api-cdn.wemod.com
+wemod.com
+api.wemod.com
+pw.nexusmods.com
+pulsar.ebay.com # needed for ebay to work right
+open.inkfrog.com # ebay listing tool
+cdn.polyfill.io # something general, I have no idea, responsive webdesign shit
+cdn.shopify.com
+www.cdn.shopify.com
+cdn.tm.shopifysvc.com # CNAME for (cdn.shopify.com)
+tls13.shopify.map.fastly.net # CNAME for (cdn.shopify.com)
+workupload.com
+www.workupload.com
+anonfiles.com
+rescure.fruxlabs.com
+cybercrime-tracker.net
+azorult-tracker.net
+fanboy.co.nz
+adaway.org
+malc0de.com
+www.malc0de.com
+.keystone.mwbsys.com
+hosts-file.net
+zeustracker.abuse.ch
+pgl.yoyo.org
+sysctl.org
+winhelp2002.mvps.org
+someonewhocares.org
+hostsfile.org
+v.firebog.net
+updates.maxmind.com
+cdn.mwbsys.com # malwarebytes
+downloads.malwarebytes.com # malwarebytes
+easylist-downloads.adblockplus.org # easylist for use with adblock plus
+.zoom.us
+control.kochava.com
+secure-gl.imrworldwide.com
+.lencr.org
+clamav.net
+.ixsystems.com
+api.fitbit.com
+email.fitbit.com
+core.telegram.org
+.telegram.org
+services.disconnect.me
+dl.discordapp.net
+.discordapp.com
+.discordapp.gg
+.cdn.discordapp.com
+cdn.discordapp.com
+https://cdn.discordapp.com
+http://cdn.discordapp.com
+https://cdn.discordapp.com/
+http://cdn.discordapp.com/
+discordapp.com
+cdn.cookielaw.org
+sumo.com
+.mix.com
+.download.freebsd.org
+unity3d.com
+link.comptia.org
+.gravatar.com
+.giphy.com
+stackoverflow.com
+www.stackoverflow.com
+ocsp.verisign.com
+rapidssl.com
+verisign.com
+checkappexec.microsoft.com
+download.microsoft.com
+dotnet.microsoft.com
+www.msftconnecttest.com
+msftconnecttest.com
+dns.msftncsi.com
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+msftncsi.com # microsoft domain to check for connectivity
+www.msftncsi.com # microsoft domain to check for connectivity
+ipv6.msftncsi.com # microsoft domain to check for connectivity
+download.sysinternals.com # process explorer domain
+windowsupdate.com
+download.windowsupdate.com
+download.visualstudio.microsoft.com # visual studios download url
+notifications.plex.tv
+downloads.plex.tv
+my.plexapp.com
+pubsub.plex.bz
+pubsub.plex.tv
+cpms.spop10.ams.plex.bz
+cpms35.spop10.ams.plex.bz
+plex.tv # plex related
+proxy02.pop.ord.plex.bz # plex related
+meta-db-worker02.pop.ric.plex.bz # plex related
+meta.plex.bz # plex related
+tvthemes.plexapp.com.cdn.cloudflare.net # plex related
+tvthemes.plexapp.com # plex related
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services # plex related
+meta.plex.tv # plex related
+proxy.plex.tv # plex related
+metrics.plex.tv # plex related
+status.plex.tv # plex related
+proxy.plex.bz # plex related
+tvdb2.plex.tv # plex related
+www.plex.tv # plex related
+node.plexapp.com # plex related
+nine.plugins.plexapp.com # plex related
+staging.plex.tv # plex related
+app.plex.tv # plex related
+o1.email.plex.tv # plex related
+o2.sg0.plex.tv # plex related
+dashboard.plex.tv # plex related
+analytics.plex.tv
+beacons5.gvt3.com # google video transcode servers, aka youtube
+www.beacons5.gvt3.com # google video transcode servers, aka youtube
+beacons.gvt2.com # CNAME for (beacons5.gvt3.com)
+beacons3.gvt2.com # google video transcode servers, aka youtube
+www.beacons3.gvt2.com # google video transcode servers, aka youtube
+beacons2.gvt2.com # google video transcode servers, aka youtube
+www.beacons2.gvt2.com # google video transcode servers, aka youtube
+beacons5.gvt2.com # google video transcode servers, aka youtube
+www.beacons5.gvt2.com # google video transcode servers, aka youtube
+beacons4.gvt2.com # google video transcode servers, aka youtube
+www.beacons4.gvt2.com # google video transcode servers, aka youtube
+beacons.gcp.gvt2.com # google video transcode servers, aka youtube
+www.beacons.gcp.gvt2.com # google video transcode servers, aka youtube
+beacons-handoff.gcp.gvt2.com # CNAME for (beacons.gcp.gvt2.com)
+mediafire.com
+www.mediafire.com
+graph.facebook.com
+edge-mqtt.facebook.com
+star.c10r.facebook.com # CNAME for (an.facebook.com)
+mqtt.c10r.facebook.com
+www.facebook.com
+orcart.facebook.com
+b-api.facebook.com
+blog.facebook.com
+mqtt.facebook.com
+mqtt.t.facebook.com
+channel.facebook.com
+0-edge-chat.facebook.com
+0-undefined.facebook.com
+1-undefined.facebook.com
+2-undefined.facebook.com
+5-undefined.facebook.com
+6-undefined.facebook.com
+b-graph.facebook.com
+undefined.facebook.com
+z-m.c10r.facebook.com # CNAME for (l.facebook.com)
+download.maxmind.com # maxmind GEOIP database download url
+www.download.maxmind.com # maxmind GEOIP database download url
+translate.google.com # google translate
+www.translate.google.com # google translate
+www3.l.google.com # CNAME for (translate.google.com)
+storage.googleapis.com # google drive
+www.storage.googleapis.com # google drive
+.xnxx-cdn.com
+.tinyurl.com
+api.github.com
+github-releases.githubusercontent.com
+events.gfe.nvidia.com
+img.nvidiagrid.net
+images.nvidia.com
+static.nvidiagrid.net
+api.gfe.nvidia.com
+accounts.nvgs.nvidia.com
+nvidia.com
+nvidiagrid.net
+geforce.com
+rover.ebay.com
+the.earth.li
+www.the.earth.li
+.discord.gg
+.discord.com
+.support.discord.com
+.cfg.gog.com
+.gog.com
+s3-us-west-2.amazonaws.com
+www.s3-us-west-2.amazonaws.com
+logs.unchecky.com
+www.logs.unchecky.com
+.bit.ly
+go.microsoft.com
+ntservicepack.microsoft.com
+wustat.windows.com
+update.microsoft.com
+windowsupdate.microsoft.com
+windowsupdate.microsoft.nsatc.net
+delivery.mp.microsoft.com
+dl.delivery.mp.microsoft.com
+prod.do.dsp.mp.microsoft.com
+emdl.ws.microsoft.com
+tsfe.trafficshaping.dsp.mp.microsoft.com
+.nginx.org
+https://raw.githubusercontent.com/stevenblack/hosts/master/hosts
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+http://someonewhocares.org/hosts/hosts
+http://adaway.org/hosts.txt
+http://winhelp2002.mvps.org/hosts.txt
+https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt
+https://adaway.org/hosts.txt
+https://v.firebog.net/hosts/admiral.txt
+https://raw.githubusercontent.com/anudeepnd/blacklist/master/adservers.txt
+https://v.firebog.net/hosts/easylist.txt
+https://raw.githubusercontent.com/fademind/hosts.extras/master/uncheckyads/hosts
+https://v.firebog.net/hosts/easyprivacy.txt
+https://v.firebog.net/hosts/prigent-ads.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/fademind/hosts.extras/master/add.2o7net/hosts
+https://raw.githubusercontent.com/crazy-max/windowsspyblocker/master/data/hosts/spy.txt
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://raw.githubusercontent.com/perflyst/piholeblocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/perflyst/piholeblocklist/master/smarttv.txt
+https://raw.githubusercontent.com/perflyst/piholeblocklist/master/amazonfiretv.txt
+https://raw.githubusercontent.com/dandelionsprout/adfilt/master/alternate%20versions%20anti-malware%20list/antimalwarehosts.txt
+https://osint.digitalside.it/threat-intel/lists/latestdomains.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://v.firebog.net/hosts/shalla-mal.txt
+https://raw.githubusercontent.com/spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/fademind/hosts.extras/master/add.risk/hosts
+https://urlhaus.abuse.ch/downloads/hostfile/
+https://raw.githubusercontent.com/henningvanraumle/pihole-ytadblock/master/ytadblock.txt
+https://raw.githubusercontent.com/anudeepnd/youtubeadsblacklist/master/hosts.txt
+https://raw.githubusercontent.com/anudeepnd/youtubeadsblacklist/master/domainlist.txt
+https://lists.noads.online/lists/compilation.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/abp-clickbait-blocklist.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/aaklist.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/adaway-default-blocklist.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/adblock-youtube-ads.txt
+https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/add-dead.txt
+https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/add-risk.txt
+https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/add-spam.txt
+https://raw.githubusercontent.com/drsdavidsoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/adware-filters.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/subscribable-lists/parsedblacklists/yhonay-antipopads.txt
+https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
+https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/blacklist.txt
+https://v.firebog.net/hosts/static/w3kbl.txt
+https://raw.githubusercontent.com/blocklistproject/lists/master/fraud.txt
+https://raw.githubusercontent.com/blocklistproject/lists/master/phishing.txt
+https://raw.githubusercontent.com/blocklistproject/lists/master/ransomware.txt
+https://raw.githubusercontent.com/blocklistproject/lists/master/scam.txt
+https://raw.githubusercontent.com/blocklistproject/lists/master/tracking.txt
+https://fanboy.co.nz/enhancedstats.txt
+https://rules.emergingthreats.net/fwrules/emerging-block-ips.txt
+https://www.binarydefense.com/banlist.txt
+https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level3.netset
+https://dblw.oisd.nl/basic/
+https://lists.malwarepatrol.net/cgi/getfile?receipt=f1442112770&product=8&list=dansguardian
+https://dshield.org/feeds/suspiciousdomains_high.txt
+https://raw.githubusercontent.com/crazy-max/windowsspyblocker/master/data/firewall/spy.txt
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+http://www.malwaredomainlist.com/hostslist/hosts.txt
+.static.xx.fbcdn.net
+.scontent.xx.fbcdn.net # CNAME for (static.xx.fbcdn.net)
+.scontent-ort2-1.xx.fbcdn.net
+web.facebook.com
+www.web.facebook.com
+star.facebook.com # CNAME for (web.facebook.com)
+external-ort2-1.xx.fbcdn.net
+www.external-ort2-1.xx.fbcdn.net
+scontent-ort2-1.xx.fbcdn.net # CNAME for (external-ort2-1.xx.fbcdn.net)
+an.facebook.com
+www.an.facebook.com
+www.ebay.com
+ebay.com
+ebaystatic.com
+ir.ebaystatic.com
+i.ebayimg.com
+ebayimg.com
+ocsrest.ebay.com
+pages.ebay.com
+epage.g.ebay.com
+ocsrest.g.ebay.com
+.discord.media
+.discordapp.net
+.discordstatus.com
+play.google.com
+media.discordapp.com
+.media.discordapp.com
+.ebaystatic.com
+.ebayimg.com
+login.live.com
+door2windows.com
+www.door2windows.com
+star-mini.c10r.facebook.com
+www.star-mini.c10r.facebook.com
+mobiletelemetry.ebay.com
+www.mobiletelemetry.ebay.com
+slot12565.ebay.com.edgekey.net # CNAME for (mobiletelemetry.ebay.com)
+e12565.a.akamaiedge.net # CNAME for (mobiletelemetry.ebay.com)
+cdn.jsdelivr.net
+.elgato.com
+.kaspersky-labs.com
+.kaspersky.com
+help.elgato.com
+elgato.com
+img.itch.zone
+img.itch.io
+kriskintel.com
+www.kriskintel.com
+discord.media
+latency.discord.media
+discord.com
+status.discord.com
+media.discordapp.net
+gateway.discord.gg
+discordapp.net
+discord.gg
+images-ext-1.discordapp.net
+images-ext-2.discordapp.net
+.media.discordapp.net
+.ssl.hwcdn.net
+ssl.hwcdn.net
+.hwcdn.net
+hwcdn.net
+redditstatic.com
+.redditstatic.com
+www.redditstatic.com
+redditmedia.com
+.redditmedia.com
+redd.it
+.redd.it
+external-preview.redd.it
+emoji.redditmedia.com
+b.thumbs.redditmedia.com
+i.redd.it
+styles.redditmedia.com
+preview.redd.it
+reddit.com
+ocsp.digicert.com
+.phicdn.net
+clientconfig.akamai.steamstatic.com
+.akamai.steamstatic.com
+akamai.steamstatic.com
+digicert.com
+.digicert.com
+ytimg.com
+.ytimg.com
+events.reddit.com
+reddit.map.fastly.net
+remote-auth-gateway.discord.gg
+images.discordapp.net
+apps.discordapp.com
+discord.co
+discordapp.gg
+.remote-auth-gateway.discord.gg
+.images-ext-2.discordapp.net
+.images-ext-1.discordapp.net
+.images.discordapp.net
+.apps.discordapp.com
+.discord.co
+.gateway.discord.gg
+accounts.google.com
+www.accounts.google.com
+edge.elgato.com
+.gleam.io
+hcaptcha.com
+www.hcaptcha.com
+geni.us
+www.geni.us
+images-na.ssl-images-amazon.com
+www.images-na.ssl-images-amazon.com
+m.media-amazon.com # CNAME for (images-na.ssl-images-amazon.com)
+tp.c47710ee9-frontier.media-amazon.com # CNAME for (images-na.ssl-images-amazon.com)
+f.media-amazon.com # CNAME for (images-na.ssl-images-amazon.com)
+media.amazon.map.fastly.net # CNAME for (images-na.ssl-images-amazon.com)
+privacyportaluat.onetrust.com
+www.privacyportaluat.onetrust.com
+rg.to
+www.rg.to
+rapidgator.net
+www.rapidgator.net
+anonfile.com
+www.anonfile.com
+dlsite.com
+www.dlsite.com
+eisysinc.qtlcdn.com # CNAME for (dlsite.com)
+github.developerdan.com
+www.github.developerdan.com
+lightswitch05.github.io # CNAME for (github.developerdan.com)
+dns.cloudflare.com
+gabe.ns.cloudflare.com
+162.159.129.233
+162.159.134.233
+162.159.135.233
+162.159.133.233
+162.159.130.233
+96.47.230.68
+162.159.133.232
+162.159.134.232
+162.159.129.232
+162.159.128.232
+162.159.130.232
+162.210.199.87
+video.xx.fbcdn.net
+www.video.xx.fbcdn.net
+.imgur.com
+chrome.google.com
+.googleusercontent.com
+l.facebook.com
+www.l.facebook.com
+.twimg.com
+apps.corel.com
+www.apps.corel.com
+mem.gfx.ms
+www.mem.gfx.ms
+amcdnmsftuswe.azureedge.net # CNAME for (mem.gfx.ms)
+amcdnmsftuswe.afd.azureedge.net # CNAME for (mem.gfx.ms)
+firstparty-azurefd-prod.trafficmanager.net # CNAME for (mem.gfx.ms)
+dual.part-0023.t-0009.t-msedge.net # CNAME for (mem.gfx.ms)
+part-0023.t-0009.t-msedge.net # CNAME for (mem.gfx.ms)
+statics-marketingsites-eus-ms-com.akamaized.net
+www.statics-marketingsites-eus-ms-com.akamaized.net
+a1945.g2.akamai.net # CNAME for (statics-marketingsites-eus-ms-com.akamaized.net)
+bbuseruploads.s3.amazonaws.com
+www.bbuseruploads.s3.amazonaws.com
+s3-1-w.amazonaws.com # CNAME for (bbuseruploads.s3.amazonaws.com)
+s3-w.us-east-1.amazonaws.com # CNAME for (bbuseruploads.s3.amazonaws.com)
+crash.steampowered.com
+www.crash.steampowered.com
+.anonfiles.com
+.gofile.io
+.safer-networking.org
+socialize.gigya.com
+www.socialize.gigya.com
+farm5.gigya.com # CNAME for (socialize.gigya.com)
+lb-d.us1.gigya.com # CNAME for (socialize.gigya.com)
+fpdownload.macromedia.com
+www.fpdownload.macromedia.com
+fpdownload.macromedia.com.edgekey.net # CNAME for (fpdownload.macromedia.com)
+e13914.dscd.akamaiedge.net # CNAME for (fpdownload.macromedia.com)
+.git.io
+blogger.googleusercontent.com
+transfer.sh
+www.transfer.sh
+download2388.mediafire.com
+www.download2388.mediafire.com
+s81.rapidgator.net
+www.s81.rapidgator.net
+api-secure.solvemedia.com
+www.api-secure.solvemedia.com
+redirect.viglink.com
+www.redirect.viglink.com
+redirect-1618329656.us-east-1.elb.amazonaws.com # CNAME for (redirect.viglink.com)
+codeload.github.com
+www.codeload.github.com
+voice.google.com
+www.voice.google.com
+voice.l.google.com # CNAME for (voice.google.com)
+blocklist.cyberthreatcoalition.org
+www.blocklist.cyberthreatcoalition.org
+p.imgur.com
+t.imgur.com
+d3c8j8snkzfr1n.cloudfront.net
+imgur.ccgateway.net
+click.redditmail.com
+.runescape.com
+.xboxlive.com
+.appcast.io
+
+
+#End of Pfsense whitelist#
+
+
+
+
+
+
+
+
+#Pihole Whitelist#
+(\.|^)github\.com$	
+(\.|^)downloads\.sourceforge\.net$	
+download.comodo.com	
+download.visualstudio.microsoft.com	
+cdn.download.comodo.com	
+easylist-downloads.adblockplus.org	
+(\.|^)steamstatic\.com$	
+(\.|^)steamusercontent\.com$	
+(\.|^)steamgames\.com$	
+(\.|^)steamcommunity\.com$	
+(\.|^)steampowered\.com$	
+download.amd.com	
+download.ccleaner.com	
+download.windowsupdate.com	
+download.proxpn.com	
+scontent-iad3-1.xx.fbcdn.net	
+(\.|^)fbcdn\.net$	
+(\.|^)windowsupdate\.com$	
+download.gfe.nvidia.com	
+odindownload.com	
+download.freenas.org	
+notepad-plus-plus.org	
+doppler.hulu.com	
+vortex.hulu.com	
+hulu.hb.omtrdc.net	
+downloads.malwarebytes.com	
+downloads.jam-software.de	
+download01.logi.com	
+download.sysinternals.com	
+download.binarymark.com	
+cdn.mwbsys.com	
+download.fosshub.com	
+i.imgur.com	
+epl.paypal-communication.com	
+www.ghacks.net	
+www.oracle.com	
+www.youtube.com	
+email.fitbit.com	
+studio.youtube.com	
+cloudflare-dns.com	
+connectivity-check.ubuntu.com	
+firebaseremoteconfig.googleapis.com	
+insights-collector.newrelic.com	
+analytics.plex.tv	
+fonts.googleapis.com	
+alb.reddit.com	
+improving.duckduckgo.com	
+www.google.com	
+duckduckgo.com	
+updates.maxmind.com	
+www.reddit.com	
+checkappexec.microsoft.com	
+services.gfe.nvidia.com	
+socialize.gigya.com	
+app-a03.lp1.npns.srv.nintendo.net	
+e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com	
+sun.hac.lp1.d4c.nintendo.net	
+conntest.nintendowifi.net	
+dauth-lp1.ndas.srv.nintendo.net	
+bugyo.hac.lp1.eshop.nintendo.net	
+accounts.nintendo.com	
+ecs-lp1.hac.shop.nintendo.net	
+receive-lp1.dg.srv.nintendo.net	
+static.akamaitechnologies.com	
+ctest.cdn.nintendo.net	
+downloadservice.fortinet.com	
+api.uca.cloud.unity3d.com	
+connect.facebook.net	
+(\.|^)ifunny\.co$	
+(\.|^)ifunny\.com$	
+steampowered.com	
+steamcommunity.com	
+steamgames.com	
+steamusercontent.com	
+steamstatic.com	
+steamcontent.com	
+akamai.steamusercontent.com	
+store.akamai.steampowered.com	
+akamai.net	
+edgesuite.net	
+edgekey.net	
+akamaitech.net	
+akamaitechnologies.fr	
+akadns.net	
+akagtm.org	
+akam.net	
+akamaistream.net	
+akamaiedge.net	
+akamai.com	
+cdn.akamai.steamstatic.com	
+store.akamai.steamstatic.com	
+s2.symcb.com	
+(\.|^)cloudflare\.com$	
+(\.|^)static\.akamaitechnologies\.com$	
+(\.|^)deploy\.static\.akamaitechnologies\.com$	
+(\.|^)cloudfront\.net$	
+(\.|^)amazonaws\.com$	
+(\.|^)steamcontent\.com$	
+facebook.com	
+facebook.net	
+fbcdn.net	
+0-edge-chat.facebook.com	
+1-edge-chat.facebook.com	
+2-edge-chat.facebook.com	
+3-edge-chat.facebook.com	
+4-edge-chat.facebook.com	
+5-edge-chat.facebook.com	
+6-edge-chat.facebook.com	
+edge-chat.facebook.com	
+mqtt-mini.facebook.com	
+shareaholic.com	
+stats.streamelements.com	
+0.client-channel.google.com	
+2.android.pool.ntp.org	
+clientconfig.passport.net	
+cse.google.com	
+d2c8v52ll5s99u.cloudfront.net	
+d2gatte9o95jao.cloudfront.net	
+dl.dropbox.com	
+fonts.gstatic.com	
+ocsp.apple.com	
+ssl.p.jwpcdn.com	
+twimg.com	
+v10.vortex-win.data.microsoft.com	
+v20.vortex-win.data.microsoft.com	
+wdcp.microsoft.com	
+cdn.syndication.twimg.com	
+(\.|^)rapidshare\.com$	
+(\.|^)megaupload\.com$	
+(\.|^)firebog\.net$	
+video-stats.l.google.com	
+dl.delivery.mp.microsoft.com	
+geo-prod.do.dsp.mp.microsoft.com	
+displaycatalog.mp.microsoft.com	
+sls.update.microsoft.com.akadns.net	
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net	
+upload.facebook.com	
+creative.ak.fbcdn.net	
+external-lhr0-1.xx.fbcdn.net	
+external-lhr1-1.xx.fbcdn.net	
+external-lhr10-1.xx.fbcdn.net	
+external-lhr2-1.xx.fbcdn.net	
+external-lhr3-1.xx.fbcdn.net	
+external-lhr4-1.xx.fbcdn.net	
+external-lhr5-1.xx.fbcdn.net	
+external-lhr6-1.xx.fbcdn.net	
+external-lhr7-1.xx.fbcdn.net	
+external-lhr8-1.xx.fbcdn.net	
+external-lhr9-1.xx.fbcdn.net	
+fbcdn-creative-a.akamaihd.net	
+scontent-lhr3-1.xx.fbcdn.net	
+scontent.xx.fbcdn.net	
+scontent.fgdl5-1.fna.fbcdn.net	
+graph.facebook.com	
+b-graph.facebook.com	
+connect.facebook.com	
+cdn.fbsbx.com	
+api.facebook.com	
+edge-mqtt.facebook.com	
+mqtt.c10r.facebook.com	
+portal.fb.com	
+star.c10r.facebook.com	
+star-mini.c10r.facebook.com	
+b-api.facebook.com	
+fb.me	
+bigzipfiles.facebook.com	
+l.facebook.com	
+plex.tv	
+tvdb2.plex.tv	
+proxy.plex.bz	
+proxy02.pop.ord.plex.bz	
+meta-db-worker02.pop.ric.plex.bz	
+meta.plex.bz	
+tvthemes.plexapp.com.cdn.cloudflare.net	
+tvthemes.plexapp.com	
+106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services	
+meta.plex.tv	
+proxy.plex.tv	
+metrics.plex.tv	
+status.plex.tv	
+www.plex.tv	
+node.plexapp.com	
+nine.plugins.plexapp.com	
+staging.plex.tv	
+app.plex.tv	
+o1.email.plex.tv	
+o2.sg0.plex.tv	
+dashboard.plex.tv	
+placehold.it	
+placeholdit.imgix.net	
+dl.dropboxusercontent.com	
+ns1.dropbox.com	
+ns2.dropbox.com	
+appleid.apple.com	
+msftncsi.com	
+www.msftncsi.com	
+ipv6.msftncsi.com	
+tracking-protection.cdn.mozilla.net	
+gfwsl.geforce.com	
+zeustracker.abuse.ch	
+pgl.yoyo.org	
+sysctl.org	
+winhelp2002.mvps.org	
+hostsfile.mine.nu	
+someonewhocares.org	
+hostsfile.org	
+v.firebog.net	
+raw.githubusercontent.com	
+hosts-file.net	
+api-global.netflix.com	
+appboot.netflix.com	
+secure.netflix.com	
+ota-downloads.nvidia.com	
+dsms0mj1bbhn4.cloudfront.net	
+amazonaws.com	
+akamaized.net	
+(\.|^)akamaized\.net$	
+akamaitechnologies.com	
+(\.|^)akamaitechnologies\.com$	
+akamaihd.net	
+(\.|^)akamaihd\.net$	
+(\.|^)ntp\.org$	
+android.clients.google.com	
+appsbackup-pa.clients6.google.com	
+appsbackup-pa.googleapis.com	
+cdn.cloudflare.net	
+cdn.embedly.com	
+cdn.optimizely.com	
+cdn2.optimizely.com	
+cdn3.optimizely.com	
+cdnjs.cloudflare.com	
+clients1.google.com	
+clients2.google.com	
+clients3.google.com	
+clients4.google.com	
+clients5.google.com	
+clients6.google.com	
+cpms.spop10.ams.plex.bz	
+cpms35.spop10.ams.plex.bz	
+ctldl.windowsupdate.com	
+dns.msftncsi.com	
+giphy.com	
+github.com	
+github.io	
+googleapis.com	
+gravatar.com	
+gstatic.com	
+i1.ytimg.com	
+i.ytimg.com	
+jquery.com	
+jsdelivr.net	
+keystone.mwbsys.com	
+lastfm-img2.akamaized.net	
+manifest.googlevideo.com	
+my.plexapp.com	
+pubsub.plex.bz	
+pubsub.plex.tv	
+s.youtube.com	
+s.ytimg.com	
+s2.youtube.com	
+s3.amazonaws.com	
+t.co	
+themoviedb.com	
+thetvdb.com	
+tinyurl.com	
+www.googleapis.com	
+www.youtube-nocookie.com	
+youtu.be	
+youtube-nocookie.com	
+yt3.ggpht.com	
+connectivitycheck.gstatic.com	
+connectivitycheck.android.com	
+www.msftconnecttest.com	
+(\.|^)gvt\.com$	
+(\.|^)gvt2\.com$	
+(\.|^)gvt3\.com$	
+beacons5.gvt3.com	
+beacons4.gvt2.com	
+beacons3.gvt2.com	
+beacons2.gvt2.com	
+beacons5.gvt2.com	
+dev.visualwebsiteoptimizer.com	
+cdn.ravenjs.com	
+api-js.mixpanel.com	
+(\.|^)easylist-downloads\.adblockplus\.org$	
+(\.|^)adblockplus\.org$	
+(\.|^)osint\.bambenekconsulting\.com$	
+(\.|^)bambenekconsulting\.com$	
+(\.|^)pi-hole\.net$	
+(\.|^)versions\.pi-hole\.net$	
+ns1.pi-hole.net	
+(\.|^)someonewhocares\.org$	
+link.comptia.org	
+cdp.cloud.unity3d.com	
+download.freebsd.org	
+heartbeat.dm.origin.com	
+gfe.nvidia.com	
+hostupdate.vmware.com	
+f-log-extension.grammarly.io	
+gnar.grammarly.com	
+mix.com	
+(\.|^)origin\.com$	
+ocsp.verisign.com	
+(\.|^)verisign\.com$	
+(\.|^)rapidssl\.com$	
+(\.|^)docker\.com$	
+(\.|^)download\.docker\.com$	
+www.metricfire.com	
+(\.|^)plex\.tv$	
+bitcoin.org	
+downloads.exodus.io	
+download-live.ledger.com	
+download.filepuma.com	
+download.glarysoft.com	
+www.netacad.com	
+download3.portableapps.com	
+cdn.download.comodo.com.i.belugacdn.com	
+download.asrock.com	
+www.whattomine.com	
+whattomine.com	
+resources.download.minecraft.net	
+www.nicehash.com	
+(\.|^)mediafire\.com$	
+anonfiles.com	
+(\.|^)downloads\.surfshark\.com/$	
+sumo.com	
+(\.|^)sumo\.com$	
+www.facebook.com	
+orcart.facebook.com	
+fbstatic-a.akamaihd.net	
+fbexternal-a.akamaihd.net	
+fbcdn-profile-a.akamaihd.net	
+fbcdn-dragon-a.akamaihd.net	
+m.facebook.com	
+apps.facebook.com	
+login.facebook.com	
+mobile.facebook.com	
+touch.facebook.com	
+0.facebook.com	
+mqtt.facebook.com	
+mqtt.t.facebook.com	
+chat.facebook.com	
+channel.facebook.com	
+www.messenger.com	
+z-m.c10r.facebook.com	
+(\.|^)facebook\.com$	
+target.microsoft.com	
+download.microsoft.com	
+dotnet.microsoft.com	
+licensing.mp.microsoft.com	
+dlc-shim.trafficmanager.net	
+main.dl.ms.akadns.net	
+cdn.polyfill.io	
+downloads.surfshark.com	
+metcon.hulu.com	
+tags.tiqcdn.com	
+ae.nflximg.net	
+cdn.cookielaw.org	
+(\.|^)gstatic\.com$	
+dpm.demdex.net	
+cws-hulu.conviva.com	
+cws.conviva.com	
+ibhuluimcom-a.akamaihd.net	
+hulustream.com	
+huluim.com	
+hulu.com.c.footprint.net	
+hulu.com	
+assetshuluimcom-a.akamaihd.net	
+ajax.googleapis.com	
+buff.ly	
+(\.|^)buff\.ly$	
+zdstatic.speedtest.net	
+(\.|^)speedtest\.net$	
+(\.|^)ca-archive\.us\.to$	
+update.microsoft.com	
+update.microsoft.com.akadns.net	
+update.microsoft.com.nsatc.net	
+raw.githubusercontent.com	
+(\.|^)raw\.githubusercontent\.com$	
+ca-archive.us.to	
+(\.|^)cdn\.waterfox\.net$	
+cdn.waterfox.net	
+api.simplisafe.com	
+pulsar.ebay.com	
+api-cdn.wemod.com	
+api.wemod.com	
+www.makeuseof.com	
+download.mozilla.org	
+(\.|^)githubusercontent\.com$	
+api.github.com	
+(\.|^)mega\.co\.nz$	
+play.googleapis.com	
+cdn.discordapp.com	
+www.nexusmods.com	
+dl.discordapp.net	
+pw.nexusmods.com	
+youtube-ui.l.google.com	
+inbox.google.com	
+(\.|^)nexusmods\.com$	
+downloads.plex.tv	
+steamstore-a.akamaihd.net	
+mail.google.com	
+api.nexusmods.com	
+api.twitter.com	
+services.disconnect.me	
+steamcdn-a.akamaihd.net	
+store.steampowered.com	
+reminders-pa.googleapis.com	
+(\.|^)ixsystems\.com$	
+(\.|^)lencr\.org$	
+(\.|^)akamai\.net$	
+(\.|^)cdn\.cloudflare\.net$	
+(\.|^)clamav\.net$	
+loot.github.io	
+(\.|^)uploadhaven\.com$	
+api.nexusmods.com/*	
+api.nexusmods.com/	
+www.downloads.netgear.com	
+download.filezilla-project.org	
+demodownload.image-line.com	
+events.gfe.nvidia.com	
+img.nvidiagrid.net	
+images.nvidia.com	
+static.nvidiagrid.net	
+api.gfe.nvidia.com	
+accounts.nvgs.nvidia.com	
+services.ucp.kaspersky-labs.com	
+(\.|^)kaspersky-labs\.com$	
+pkg.freebsd.org	
+cfg.gog.com	
+(\.|^)gog\.com$	
+gateway.discord.gg	
+(\.|^)discord\.gg$	
+(\.|^)discord\.com$	
+(\.|^)discordapp\.com$	
+(\.|^)discordapp\.gg$	
+client.wns.windows.com	
+logs.unchecky.com	
+api.snapcraft.io	
+uploads.ungrounded.net	
+download2.vmware.com	
+zn2ldpvjkekowkxyz-bethesda.siteintercept.qualtrics.com	
+download.cdp.bethesda.net	
+(\.|^)bethesda\.net$	
+us.download.nvidia.com	
+go.microsoft.com	
+ntservicepack.microsoft.com	
+wustat.windows.com	
+(\.|^)download\.windowsupdate\.com$	
+(\.|^)update\.microsoft\.com$	
+(\.|^)windowsupdate\.microsoft\.com$	
+(\.|^)portableapps\.com$	
+download.msi.com	
+static.trafficjunky.com	
+download.teamviewer.com	
+launchercontent.mojang.com	
+upload.youtube.com	
+(\.|^)cdn\.discordapp\.com$	
+static3.cdn.ubi.com	
+public-ubiservices.ubi.com	
+dmx.upc.ubisoft.com	
+ocsp.digicert.com	
+crl3.digicert.com	
+crl4.digicert.com	
+(\.|^)symantec\.com$	
+(\.|^)ubisoft\.com$	
+(\.|^)ubi\.com$	
+(\.|^)ubisoft\.org$	
+(\.|^)ubisoftconnect\.com$	
+(\.|^)ubisoft-avatars\.akamaized\.net$	
+(\.|^)ubisoft-uplay-savegames\.s3\.amazonaws\.com$	
+(\.|^)ubisoft\.akadns\.net$	
+www.ebay.com	
+ebay.com	
+ebaystatic.com	
+i.ebayimg.com	
+ocsrest.ebay.com	
+pages.ebay.com	
+epage.g.ebay.com	
+ocsrest.g.ebay.com	
+ir.ebaystatic.com	
+services.fandom.com	
+(\.|^)discord\.media$	
+(\.|^)discordapp\.net$	
+(\.|^)discordstatus\.com$	
+(\.|^)discord\.co$	
+(\.|^)reddit\.com$	
+(\.|^)redditstatic\.com$	
+login.live.com	
+nav.smartscreen.microsoft.com	
+cid-5a9620b5a55ce91d.users.storage.live.com	
+purchase.mp.microsoft.com	
+jcmsfd.account.microsoft.com	
+paymentinstruments.mp.microsoft.com	
+tlu.dl.delivery.mp.microsoft.com	
+da.xboxservices.com	
+smartscreen-prod.microsoft.com	
+js.wpncdn.com	
+logincdn.msauth.net	
+acctcdnmsftuswe2.azureedge.net	
+acctcdn.msftauth.net	
+acctcdn.msauth.net	
+account.live.com	
+login.microsoftonline.com	
+ebayimg.com	
+arstechnica.com	
+makeuseof.com	
+safeweb.norton.com	
+shasta-web-prod.trafficmanager.net	
+download1.ccleaner.com.edgekey.net	
+twitter.com	
+abs.twimg.com	
+(\.|^)media\.discordapp\.net$	
+discord.com	
+discordapp.com	
+discordapp.net	
+discord.gg	
+status.discord.com	
+discord.media	
+latency.discord.media	
+media.discordapp.net	
+images-ext-1.discordapp.net	
+images-ext-2.discordapp.net	
+(\.|^)latency\.discord\.media$	
+(\.|^)status\.discord\.com$	
+(\.|^)gateway\.discord\.gg$	
+(\.|^)images-ext-1\.discordapp\.net$	
+(\.|^)images-ext-2\.discordapp\.net$	
+www.intel.com	
+pastebin.com	
+redditstatic.com	
+www.redditstatic.com	
+redditmedia.com	
+redd.it	
+external-preview.redd.it	
+emoji.redditmedia.com	
+b.thumbs.redditmedia.com	
+i.redd.it	
+styles.redditmedia.com	
+preview.redd.it	
+reddit.com	
+clientconfig.akamai.steamstatic.com	
+akamai.steamstatic.com	
+digicert.com	
+ytimg.com	
+events.reddit.com	
+download3.vmware.com	
+images.discordapp.net	
+apps.discordapp.com	
+discord.co	
+media.discordapp.com	
+crunchyroll.com	
+download.virtualbox.org	
+download.cpuid.com	
+securedownloads.superantispyware.com	
+www.maxmind.com	
+(\.|^)sourceforge\.net$	
+edge.elgato.com	
+(\.|^)elgato\.com$	
+accounts.google.com	
+download.imagemagick.org	
+download.jetbrains.com	
+download-cdn.jetbrains.com	
+(\.|^)gleam\.io$	
+hcaptcha.com	
+download.cnet.com	
+download01.logitech.com	
+gabe.ns.cloudflare.com	
+dns.cloudflare.com	
+forum.xda-developers.com	
+email.greenmangaming.com	
+(\.|^)comptia\.org$	
+time.windows.com	
+(\.|^)safer-networking\.org$	
+debian.map.fastlydns.net	
+(\.|^)debian\.org$	
+(\.|^)freebsd\.org$	
+(\.|^)turnkeylinux\.org$	
+fpdownload.macromedia.com	
+aadcdn.msauth.net	
+download.calibre-ebook.com	
+stats.steaminventoryhelper.com	
+squad.fandom.com	
+redirect.viglink.com	
+download.bleepingcomputer.com	
+activation-v2.sls.microsoft.com	
+download.webmin.org	
+(\.|^)webmin\.com$	
+(\.|^)launchpad\.net$	
+(\.|^)mongodb\.org$	
+(\.|^)nodesource\.com$	
+(\.|^)sury\.org$	
+(\.|^)raspberrypi\.org$	
+myanimelist.net	
+tvtropes.org	
+scripts.mediavine.com	
+cdn.shortpixel.ai	
+api.vanilla.futurecdn.net	
+platform.twitter.com	
+uploads.disquscdn.com	
+download-windows.grammarly.com	
+comptiasso-b2c-prod.azureedge.net	
+download.oracle.com	
+certmetrics.com	
+pbs.twimg.com	
+knowyourmeme.com	
+femetrics.grammarly.io	
+download.bleachbit.org	
+voice.google.com	
+upload.docs.google.com	
+bt2.archive.org	
+bt1.archive.org	
+ton.twimg.com	
+tweetdeck.twitter.com	
+cts.indeed.com	
+imgur.ccgateway.net	
+t.imgur.com	
+myjobs.indeed.com	
+downloads.firestormviewer.org	
+link.account.fitbit.com	
+#End of Pihole Block Lists
